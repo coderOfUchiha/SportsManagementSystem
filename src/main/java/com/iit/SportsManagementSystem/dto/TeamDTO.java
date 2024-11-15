@@ -16,7 +16,9 @@ public class TeamDTO {
 
     private Long teamBalance;
 
-    private String teamOwners;
+    private String teamOwner;
+
+    private String mail;
 
     private TournamentDetails tournamentDetails;
 }

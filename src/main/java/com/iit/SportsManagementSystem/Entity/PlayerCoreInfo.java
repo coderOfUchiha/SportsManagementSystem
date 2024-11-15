@@ -22,5 +22,7 @@ public class PlayerCoreInfo {
     private Long positionId;
     private Long category;
     private Long teamId;
+    private String bKashNumber;
+    private String email;
     private Long enrollmentStatus;
 }

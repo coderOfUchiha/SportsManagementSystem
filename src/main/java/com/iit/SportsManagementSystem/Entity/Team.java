@@ -19,7 +19,8 @@ public class Team{
     private Long teamId;
     private String teamName;
     private Long teamBalance;
-    private String teamOwners;
+    private String teamOwner;
+    private String email;
 
     @ManyToOne
     @JoinColumn(name = "tournament_id")

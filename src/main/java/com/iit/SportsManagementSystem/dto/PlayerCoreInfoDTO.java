@@ -26,4 +26,8 @@ public class PlayerCoreInfoDTO {
     private Long teamId;
 
     private Long enrollmentStatus;
+
+    private String bKashNumber;
+
+    private String email;
 }
